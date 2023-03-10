@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 560px) 
+
+{
+
+a{
+    
+   flex-flow: column;
+}
+main{
+    width:100%;
+}
+
+/*#################### CONTENU #######################*/
+body {
+    width: 100%;
+  
+  }
+
+
+aside{
+    
+    visibility: hidden;
+}
+
+nav{
+    flex-direction: column;
+}
+section{
+
+    width:100%;
+   
+}
+.image{
+    width: 350px;
+    justify-content: center;
+   
+}
+}

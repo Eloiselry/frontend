@@ -2,84 +2,38 @@
 @media screen and (max-width: 560px) 
 
 {
-*{
-    box-sizing: border-box;
+
+a{
+    
+   flex-flow: column;
+}
+main{
+    width:100%;
 }
 
-nav{
-    
-    margin-top: 0.5em;
-    background-color: #733E27;
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-    }
-
- main{
-
-    display: flex;
- }
-
-
-
- a{
-    
-    background-color: #733E27;
-    color: white;
-    text-decoration: none;
-    margin: 5;
-    padding: 1em 0;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    gap:5%;
-    list-style-type: none;
-    font-size: 1.6em;
-    
-}
-a:hover{
-    background-color:rosybrown;
-}
 /*#################### CONTENU #######################*/
 body {
-    margin: 5;
-    background-color: rgb(27, 141, 135);
+    width: 100%;
+  
   }
-.container{
 
-    display:flex;
-    flex-flow:row nowrap;
-    justify-content: space-between;
-}
-#logochoco{
-
-    background-color:rgb(27, 141, 135) ;
-    
-    align-content: center;
-}
-
-.image{
-    border-radius: 15px;
-}
-p{
-    font-family: 'Open Sans', sans-serif;
-}
-
-h2{
-    font-size: 1.4em;
-    background-color: #733E27;
-    color: white;
-    border-radius: 10px; 
-    text-align: center;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-section{
-
-    padding: 5%;
-}
 
 aside{
     
     visibility: hidden;
+}
+
+nav{
+    flex-direction: column;
+}
+section{
+
+    width:100%;
+   
+}
+.image{
+    width: 350px;
+    justify-content: center;
+   
 }
 }
