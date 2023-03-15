@@ -1,15 +1,158 @@
+
+
+.img2{
+width: 287px;
+height: 300px;
+
+}
+
+figure{
+    border: 1px solid white;
+    padding: 5px;
+    display:flex; 
+  
+    
+}
+figcaption{
+    background-color:white;
+    color: #000000;
+ ;
+    
+   
+
+}
+
+body{
+
+    background:black ;
+ 
+   
+}
+
 img{
     width: 100px;
     height: 70px;
-    
+   
+}
+
+h1{
+    color: white;
+    font-family: rock salt;
+    display:flex;
+    justify-content: center;
+}
+
+   
+
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #e60c0c;
+    font-family: rock salt;
+    font-size: 120%;
+    display:flex;
+    justify-content: flex-start;
+}
+
+main{
+    margin-top: 5%;
+    padding:5%;
+    display:flex;
+    justify-content: space-around;
+
+}
+h3{
+    color: white;
+   font-family: rock;
+   text-align: center;
+   margin-top: 10%;
+}
+
+table{
+
+    background-color:black;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    border-collapse: collapse;
+   
+   
+}
+ tr, td
+{
+   border: 5px solid #000000;
+   justify-content: space-between;
+   padding-bottom: 5%;
+   margin-right: 5%;
+}
+th{
+
+    color:#e60c0c;
+}
+
+
+
+.carouselslide{
+
+    width: 50%;
+    margin-top: 10%;
+    height: 50%;
+}
+
+d-md-block{
+    height: 60%;
+}
+p{
+    color: red;
+}
+
+p.bloc-image {
+    display: inline-block;
+    text-align: center;
+ }
+ p.bloc-image img {
+   box-shadow: 3px 3px 6px #090909;
+   margin : 10px;
+ }
+ p.bloc-image span {
+    display:block;
+ }
+
+
+#artiste{
+
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    color: white;
+    align-items: space-between;
+    border-radius: 5px;
+}
+
+
+label{
+    color: red;
+    font-family: rock salt;
+}
+
+
+form{
+
+    display:flex;
+    justify-content: center;
+    align-content: center;
 
 }
 
 
-a{
-color: red;
+tbody{
+
+        justify-content: space-around;
+}
+.pseudo{
+    display:flex;
+
 }
 
-#carouselExampleCaptions{
-    
+.bouton2{
+  color: red;
 }

@@ -1,0 +1,46 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+/*#################### HEADER #####################*/
+
+header{
+    padding:52px;
+     background-color: rgb(179, 175, 175);
+    margin-bottom: 5%;
+    
+    
+}
+
+li>a{
+    color: black;
+}
+
+
+
+/*###################### NAVIGATION ##################*/
+
+
+  nav{
+
+    
+  }
+
+
+/*#################### BODY #########################*/
+
+body{
+    background-color:white;
+}
+
+
+/*########################## FOOTER #####################*/
+
+footer{
+    background: black;
+}
