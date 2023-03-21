@@ -1,0 +1,62 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*#################### HEADER #####################*/
+
+header{
+    padding:50px;
+     background-color: white;
+    margin-bottom: 5%;
+    
+    
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/*###################### NAVIGATION ##################*/
+
+
+.navbar.navbar-expand-lg.fixed-top{
+    background-color: rgb(182, 178, 178);
+}
+.navbar-toggler{
+background-color: rgb(75, 74, 74);
+border: 1px solid black;
+  }
+  
+
+/*#################### BODY #########################*/
+
+body{
+    background-color:white;
+   
+
+}
+
+    
+    h3 {
+        text-align: center;
+        color: rgb(10, 10, 10);
+        margin-bottom: 5%;
+        font-size: 2em;
+        }
+        @media only screen and (max-width: 320px) {
+        
+        h3 {
+            font-size: 0,5em;
+            }
+        }
+/*########################## FOOTER #####################*/

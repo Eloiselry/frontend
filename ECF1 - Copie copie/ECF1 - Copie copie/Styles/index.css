@@ -1,0 +1,26 @@
+
+
+p{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#NYbefore{
+    height: 500px;
+    width: 700px;
+    
+    border-style: groove;
+    border-color: red;
+}
+
+div.row{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

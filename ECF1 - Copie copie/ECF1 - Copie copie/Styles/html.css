@@ -1,0 +1,97 @@
+#centralpark{
+
+   
+    margin-bottom: 5%;
+    height: 500px;
+    width:700px;
+    border-style: groove;
+    border-color: rgb(27, 138, 27);
+    
+}
+
+.list-group.list-group-numbered{
+    margin: 30%;
+    margin-top: 10%;
+    
+
+}
+
+
+
+
+#pizza{
+    height: 400px;
+    width: 600px;
+    
+    
+    border-style: groove;
+    border-color: red;
+}
+  
+#Brooklyn{
+    height: 600px;
+    width: 800px;
+   
+    
+  
+    border-style: groove;
+    border-color: rgb(255, 217, 0);
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(255, 0, 0);
+    
+}
+#lampadaire{
+
+
+height: 400px;
+width: 600px;
+
+
+}
+
+#brooklyn2{
+
+    height: 200px;
+    width: 300px;
+}
+
+#Harlem{
+    margin-left: 25%;
+    border-style: groove;
+    border-color: blue;
+}
+
+
+
+#lunapark{
+    height: 400px;
+    width:600px ;
+    
+}
+
+
+#roller{
+
+height: 300px;
+width: 500px;
+
+}
+
+#lobster{
+
+    height: 600px;
+    width: 400px;
+   
+}
+
+
+
+#gospel{
+height: 300px;
+    width:500px ;
+    
+}
