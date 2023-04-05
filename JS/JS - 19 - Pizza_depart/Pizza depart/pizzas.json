@@ -1,0 +1,49 @@
+{
+   "Name": "Chez Mario et luigi",
+    "Slogan": "Pizzaiolo de pere en fils",
+    "Pizzas": [
+      {
+
+        "Nom": "La Normande",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfyJER1UdtORpQsTrxEs68dqR-bkjH6ExavA&usqp=CAU",
+        "Prix": "12.50 euros",
+        "Ingredients": [
+            "Pomme de terre",
+        "camembert",
+        "oignons",
+        "base creme au cidre"
+    ]
+      },
+      {
+
+        "Nom": "La Royale",
+        "Image": "https://kissmychef.com/wp-content/uploads/2021/07/pizza-1.png",
+        "Prix": "16 euros",
+        "Ingredients": [
+            "Jambon",
+        "champignon",
+        "roquette",
+        "oignons",
+        "basilic",
+        "Burrata"
+    ]
+      },
+
+      {
+
+        "Nom": "La Fromagie",
+        "Image": "https://img.cuisineaz.com/660x660/2023/01/24/i190902-pizza-aux-4-fromages.jpeg",
+        "Prix": "14.50 euros",
+        "Ingredients": [
+        "Mozza",
+        "Bleu",
+        "Epoise",
+        "Gruyere",
+        "origan"
+    ]
+      }
+    ]
+
+
+
+}

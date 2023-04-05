@@ -1,9 +1,6 @@
 
 
 
-*{
-    box-sizing: border-box;
-}
 
 
 /*#################### HEADER #####################*/
@@ -17,15 +14,16 @@ header{
 }
 
 p{
-    margin-left: 5%;
-    margin-right: 5%;
+    
     margin-bottom: 5%;
     margin-top: 5%;
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-
+.text1{
+    text-align: center;
+   
+}
 /*###################### NAVIGATION ##################*/
 
 

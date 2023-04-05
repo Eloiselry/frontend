@@ -16,21 +16,22 @@
 
 }
 
-
-
-
-#pizza{
+.modif{
     height: 400px;
     width: 600px;
     
+}
+
+#pizza{
+  
     
     border-style: groove;
     border-color: red;
 }
   
 #Brooklyn{
-    height: 600px;
-    width: 800px;
+    height: 500px;
+    width: 700px;
    
     
   
@@ -44,14 +45,8 @@ h4{
     color: rgb(255, 0, 0);
     
 }
-#lampadaire{
 
 
-height: 400px;
-width: 600px;
-
-
-}
 
 #brooklyn2{
 
@@ -60,38 +55,26 @@ width: 600px;
 }
 
 #Harlem{
-    margin-left: 25%;
+  
     border-style: groove;
     border-color: blue;
 }
 
 
 
-#lunapark{
-    height: 400px;
-    width:600px ;
-    
-}
 
 
-#roller{
 
+
+.modif2{
 height: 300px;
 width: 500px;
-
-}
-
-#lobster{
-
-    height: 600px;
-    width: 400px;
-   
 }
 
 
 
-#gospel{
-height: 300px;
-    width:500px ;
+
+
+
+
     
-}

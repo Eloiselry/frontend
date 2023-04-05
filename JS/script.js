@@ -80,5 +80,3 @@ else{
     console.log(operation(nombre1,nombre2,operateur));
 }*/
 
-
-
