@@ -1,0 +1,317 @@
+*{
+    background-color: gray;
+}
+
+.titre{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    cursor: url("img/icons8-sabre-laser-48.png"), pointer;
+}
+ 
+
+    
+
+.picture{
+    height: 200px;
+    width: 200px;
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+/* Animation properties */
+.star {
+    animation: star 10s ease-out infinite;
+  }
+  .wars {
+    animation: wars 10s ease-out infinite;
+  }
+  .byline span {
+    animation: spin-letters 10s linear infinite;
+  }
+  .byline {
+    animation: move-byline 10s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes star {
+    0% {
+      opacity: 0;
+      transform: scale(1.5) translateY(-0.75em);
+    }
+    20% {
+      opacity: 1;
+    }
+    89% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translateZ(-1000em);
+    }
+  }
+  
+  @keyframes wars {
+    0% {
+      opacity: 0;
+      transform: scale(1.5) translateY(0.5em);
+    }
+    20% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translateZ(-1000em);
+    }
+  }
+  
+  @keyframes spin-letters {
+    0%, 10% {
+      opacity: 0;
+      transform: rotateY(90deg);
+    }
+    30% {
+      opacity: 1;
+    }
+    70%, 86% {
+      transform: rotateY(0);
+      opacity: 1;
+    }
+    95%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes move-byline {
+    0% {
+      transform: translateZ(5em);
+    }
+    100% {
+      transform: translateZ(0);
+    }
+  }
+  
+  /* Make the 3D work on the container */
+  .starwars-demo {
+    perspective: 800px;
+    transform-style: preserve3d;
+  }
+  
+  /* General styles and layout */
+  body {
+    background: #000 url(//cssanimation.rocks/demo/starwars/images/bg.jpg);
+  }
+  
+  .starwars-demo {
+    height: 17em;
+    left: 50%;
+    position: absolute;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    width: 34em;
+  }
+  
+  .byline span {
+    display: inline-block;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .star, .wars, .byline {
+    position: absolute;
+  }
+  
+  .star {
+    top: -0.75em;
+  }
+  
+  .wars {
+    bottom: -0.5em;
+  }
+  
+  .byline {
+    color: #fff;
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 2.25em;
+    left: -2em;
+    letter-spacing: 0.4em;
+    right: -2em;
+    text-align: center;
+    text-transform: uppercase;
+    top: 29%;
+  }
+  
+  /*** Media queries for adjusting to different screen sizes ***/
+  
+  @media only screen and (max-width: 600px) {
+    .starwars-demo {
+      font-size: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .starwars-demo {
+      font-size: 7px;
+    }
+  }
+
+
+  body {
+    background: #000000;
+      animation: background-light 1s;
+      animation-delay: 3.5s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+    }
+    
+    svg {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    
+    #contours {
+      fill: none;
+      stroke: white;
+      stroke-width: 2;
+      stroke-miterlimit:10;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 5s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: linear; 
+    }
+    #contours-visage {
+      fill: none;
+      stroke: white;
+      stroke-width: 2;
+      stroke-miterlimit:10;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 5s;
+      animation-delay: 1s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: linear; 
+    }
+    
+    #details {
+      fill: none;
+      stroke: white;
+      stroke-width: 1;
+      stroke-miterlimit:10;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 10s;
+      animation-delay: 1s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: linear; 
+    }
+    #details-visage {
+      fill: none;
+      stroke: white;
+      stroke-width: 1;
+      stroke-miterlimit:10;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 15s;
+      animation-delay:1s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: linear; 
+    }
+    #details-visage-2 {
+      fill: none;
+      stroke: white;
+      stroke-width: 0.5;
+      stroke-miterlimit:10;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 35s;
+      animation-delay:1s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: linear; 
+    }
+    #eyes-color {
+      opacity:0;
+      fill:white;
+      animation: show 4s;
+      animation-delay: 1s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+    }
+    
+    #light-saber {
+      opacity:0;
+      fill: url(#gradient);
+      filter: url(#f1);
+      animation: plasma 1s;
+      animation-delay: 3.5s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+    }
+    #light-saber-2 {
+      fill: none;
+      stroke: white;
+      stroke-width: 1;
+      stroke-miterlimit:10;
+      stroke-dasharray: 4000;
+      stroke-dashoffset: 4000;
+      animation: draw 3s;
+      animation-delay: 3.5s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+     }
+        }
+    @keyframes show {
+      to {
+        opacity:1;
+     }
+        }
+    @keyframes plasma {
+      to {
+        opacity:1;
+     }
+        }
+
+   
